@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "913902128058",
+    "project_id": "art-mess",
+    "storage_bucket": "art-mess.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913902128058:android:1fd32514364d161acc2b83",
+        "android_client_info": {
+          "package_name": "com.mess.art"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH87BmoRZdx-O_LvRH_zubN0ocTvnSzbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
