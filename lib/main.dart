@@ -914,7 +914,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             itemCount: artworks.length,
             itemBuilder: (context, index) {
-              return Container(
+  return Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10.0),
                   boxShadow: [
@@ -926,15 +926,17 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                   ],
                 ),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10.0),
-                  child: Image.memory(
-                    base64Decode(artworks[index].imageData),
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              );
-            },
+
+    child: ClipRRect(
+      borderRadius: BorderRadius.circular(10.0),
+      child: Image.memory(
+        base64Decode(artworks[index].imageData),
+        fit: BoxFit.cover,
+      ),
+    ),
+  );
+},
+            
           );
         }
       },
