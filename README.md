@@ -1,3 +1,3 @@
-# art_mess
+# art_messenger
 
 A new Flutter project.
